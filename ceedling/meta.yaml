@@ -1,0 +1,31 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# /home/j/Projects/Angaza/nexus-keycode-internal/support/conda-recipes/ceedling, last modified Fri Aug 21 11:05:38 2020
+# ------------------------------------------------
+
+package:
+    name: ceedling
+    version: 0.30.0
+
+source:
+    git_url: https://github.com/ThrowTheSwitch/Ceedling.git
+
+build:
+    string: '4'
+
+requirements:
+    build:
+        - ca-certificates 2020.12.5 h5b45459_0
+        - openssl 1.1.1i h8ffe710_0
+        - vc 14.2 hb210afc_2
+        - vs2015_runtime 14.28.29325 h5e1d092_0
+        - zlib 1.2.11 h62dcd97_1010
+        - ruby 2.7.2 h8b1b97a_3
+about:
+    home: http://www.throwtheswitch.org/ceedling
+    license: GPL
+    summary: "Ceedling is a build system for C projects that is something of an extension\
+        \ around Ruby\u2019s Rake (make-ish) build system."
+extra:
+    copy_test_source_files: true
+    final: true

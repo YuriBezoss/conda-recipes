@@ -11,7 +11,7 @@ source:
   sha256: 94913fe2414b424d81cd53fbf906f1865444c634260b7544b6098eb2a74dae1c # [win]
 
 build:
-  string: '0'
+  string: '1'
 
 test:
   commands:

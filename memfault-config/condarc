@@ -1,6 +1,0 @@
-channel_priority: strict
-channels:
-  - tyhoff17
-  - memfault
-  - conda-forge
-  - defaults
